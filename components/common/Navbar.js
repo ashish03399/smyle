@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import Image from "next/image";
+import Image from "next/future/image";
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div class="px-4 py-4 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="px-4 py-1 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
             <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
                 <ul class="flex items-center hidden space-x-8 lg:flex">
                     <li>
@@ -13,7 +13,7 @@ export default function Navbar() {
                             href="#donate"
                             aria-label="Donate"
                             title="Donate"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                            class="z-20 font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                             Donate
                         </a>
@@ -23,23 +23,16 @@ export default function Navbar() {
                             href="#team"
                             aria-label="Our Team"
                             title="Our Team"
-                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                            class="z-10 font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                             Our Team
                         </a>
                     </li>
                 </ul>
-                <a
-                    href="#"
-                    aria-label="Company"
-                    title="Company"
-                    className="inline-flex items-center"
-                >
-                    <div className="h-12 lg:h-14">
-                        <Image src="/img.png" alt="" objectFit='contain' layout='fill'/>
-                    </div>
-                </a>
-                <ul class="flex items-center hidden space-x-8 lg:flex">
+                <div className="relative h-12 w-20 lg:h-14">
+                    <Image src="/img.png" alt="" fill style={{objectFit: "contain"}}/>
+                </div>
+                <ul class="z-0 flex items-center hidden space-x-8 lg:flex">
                     <li>
                         <a
                             href="#event"
@@ -61,7 +54,7 @@ export default function Navbar() {
                         </a>
                     </li>
                 </ul>
-                <div class="lg:hidden">
+                <div class="z-10 lg:hidden">
                     <button
                         aria-label="Open Menu"
                         title="Open Menu"

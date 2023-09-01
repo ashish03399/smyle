@@ -16,12 +16,22 @@ export default function CoreTeam() {
         {
             avatar: "/team/bdtyagi.jpeg",
             name: "Brahma Dev Tyagi",
-            position: "Join Secretory",
+            position: "Genral Secretory",
         },
         {
             avatar: "/team/deepak_singhal.png",
             name: "Deepak Singhal",
             position: "Cashier",
+        },
+        {
+            avatar: "/team/mayank_goel.jpeg",
+            name: "Mayank Goel",
+            position: "Co. Committee Member",
+        },
+        {
+            avatar: "/team/alok_tiwari.jpeg",
+            name: "Alok Tiwari",
+            position: "Co. Committee Member",
         }
     ];
     return (
@@ -32,13 +42,13 @@ export default function CoreTeam() {
                     Teamwork is the fuel that allows common people to attain uncommon
                     results.
                 </p>
-                <div className="w-max-[90vw] w-full md:w-8/12 overflow-x-auto">
+                <div className="w-max-[90vw] w-full md:w-9/12 overflow-x-auto">
                     <div className="flex flex-row w-max flex-wrap">
                         {/* Card */}
                         {cc.map((cc, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col items-center m-2 p-4 py-10 brightness-90 rounded-md w-56"
+                                className="flex flex-col items-center p-2 py-10 brightness-90 rounded-md w-56"
                             >
                                 <div
                                     className="w-28 h-28 md:w-28 md:h-28"

@@ -1,9 +1,9 @@
 <div align="center">
- <h1> <Image src="https://teamhnm.org/logo.png" width="80px"><br/>Team HNM (Hunger No More)</h1>
+ <h1> <Image src="https://teamhnm.org/logo.png" width="80px"><br/>Team HNM (Smyle Pariwar Foundation)</h1>
 </div>
 <br/>
 
-Website for NGO Hunger No More (HNM). Made with NextJS and TailwindCSS. We reduce the wastage of food by using it for a good cause and provide a healthy meal to kids so that they can sleep with no hunger.
+Website for NGO Smyle Pariwar Foundation (HNM). Made with NextJS and TailwindCSS. We reduce the wastage of food by using it for a good cause and provide a healthy meal to kids so that they can sleep with no hunger.
 
 **Website: [teamhnm.org](https://teamhnm.org)**
 
