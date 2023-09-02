@@ -1,10 +1,4 @@
-import React, {Fragment, useState} from 'react'
-
-const stats = [
-    {id: 1, name: 'Transactions every 24 hours', value: '44 million'},
-    {id: 2, name: 'Assets under holding', value: '$119 trillion'},
-    {id: 3, name: 'New users annually', value: '46,000'},
-]
+import React from 'react'
 
 export default function VideoSection() {
     return (

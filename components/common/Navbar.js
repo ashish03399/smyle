@@ -30,7 +30,7 @@ export default function Navbar() {
                     </li>
                 </ul>
                 <div className="relative h-12 w-20 lg:h-14">
-                    <Image src="/img.png" alt="" fill style={{objectFit: "contain"}}/>
+                    <Image src="/logo.png" alt="" fill style={{objectFit: "contain"}}/>
                 </div>
                 <ul class="z-0 flex items-center hidden space-x-8 lg:flex">
                     <li>

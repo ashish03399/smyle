@@ -1,17 +1,12 @@
 import Head from "next/head";
-import Carousal from "../components/home/Carousal";
 import Hero from "../components/home/Hero";
-import Stats from "../components/home/Stats";
-import Testimonials from "../components/home/Testimonials";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 import CoreTeam from "../components/home/CoreTeam";
 import Donate from "../components/home/Donate";
-import About from "../components/home/About";
 import MarketingBanner from "../components/common/MarketingBanner";
 import Event from "../components/common/Event";
 import HeroV2 from "../components/home/HeroV2";
-// import Header from "../components/common/Header";
 import VideoSection from "../components/common/videoSection";
 import Image from "next/image";
 
@@ -50,17 +45,11 @@ export default function Home() {
             <main>
                 <Navbar/>
                 <HeroV2/>
-                {/*<MarketingBanner />*/}
-
                 <Hero/>
                 <VideoSection/>
                 <Event/>
-                {/*<Stats />*/}
                 <Donate/>
-                {/*<Carousal />*/}
-                {/*<Testimonials />*/}
                 <CoreTeam/>
-                {/*<About />*/}
             </main>
             <Footer/>
             <MarketingBanner/>
@@ -69,7 +58,7 @@ export default function Home() {
                 href="https://www.payumoney.com/paybypayumoney/#/DB085F74BD77B86D098E0C30FEC5AF6F"
                 aria-label="Donate Now"
                 title="Donate"
-                className="fixed z-90 bottom-10 right-8 w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:drop-shadow-2xl hover:animate-bounce duration-300">
+                className="fixed z-90 bottom-8 right-8 w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:drop-shadow-2xl hover:animate-none animate-bounce duration-300">
                 <Image
                     src={'/donate_now.png'}
                     width={100}

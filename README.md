@@ -1,19 +1,18 @@
 <div align="center">
- <h1> <Image src="https://teamhnm.org/logo.png" width="80px"><br/>Team HNM (Smyle Pariwar Foundation)</h1>
+ <h1> <Image src="https://www.smylepariwarfoundation.org/logo.png" width="80px"><br/>Team SPF (Smyle Pariwar Foundation)</h1>
 </div>
 <br/>
 
-Website for NGO Smyle Pariwar Foundation (HNM). Made with NextJS and TailwindCSS. We reduce the wastage of food by using it for a good cause and provide a healthy meal to kids so that they can sleep with no hunger.
+Website for NGO Smyle Pariwar Foundation. Made with NextJS and TailwindCSS. We have made their education our mission. You too can support online to ensure that poverty doesn't stand in the way of a child's education. Support online and take them a step closer to their dreams.
 
-**Website: [teamhnm.org](https://teamhnm.org)**
 
->Note: I have nothing to do with this NGO and I don't endorse it.
+**Website: [smylepariwarfoundation.org](https://www.smylepariwarfoundation.org/)**
 
 > Work in Progress
 
-![image](https://user-images.githubusercontent.com/81325730/193545477-9d35b574-6a6e-4814-8084-df8eaac3c6c5.png)
+![image](./web_screenshot.png)
 
-#### We reduce the wastage of food by using it for a good cause and provide a healthy meal to kids so that they can sleep with no hunger.
+#### All children have the right to a healthy, happy and fulfilling life. Donate Money & Support Charity to Keep children safe & free from harm
 
 ## Tech Stack
 
@@ -23,8 +22,7 @@ Website for NGO Smyle Pariwar Foundation (HNM). Made with NextJS and TailwindCSS
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Google APIs](https://img.shields.io/badge/Google%20API-%231572B6.svg?style=for-the-badge&logo=google&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-black?style=for-the-badge&logoColor=white)
 
 ## Getting Started
 
@@ -53,8 +51,8 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Netlify Platform](https://docs.netlify.com/?_gl=1%2ayk5szy%2a_gcl_au%2aMzY2MzU4MzgzLjE2OTM1NTM4MTg.) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
