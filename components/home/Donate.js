@@ -1,18 +1,19 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/future/image";
 
 export default function Donate() {
     return (
         <div className="flex flex-col w-full items-center my-10 md:my-14" id="donate">
             <div className="flex flex-col md:flex-row pt-10 justify-center items-center">
                 <div className="sm:w-6/12 w-full md:w-4/12 flex justify-center items-center">
-                    <div className="relative h-[27rem] bg-red-100 w-8/12 lg:w-6/12">
-                        <Image
-                            src="/upi_new.png" alt=""
-                            objectFit={'cover'}
-                            layout={'fill'}
-                            />
-                    </div>
+                    <Image
+                        src="/upi_new.png" alt=""
+                        objectFit={'contain'}
+                        width={0}
+                        height={0}
+                        className="relative bg-red-100 w-8/12 lg:w-6/12"
+                        layout={'fill'}
+                    />
                 </div>
                 <div className="w-10/12 sm:w-8/12 md:w-5/12 lg:w-6/12 flex flex-col justify-center items-center px-4">
                     <p className="text-4xl lg:text-5xl font-bold pt-10 md:pt-0">BECOME A VOLUNTEER</p>
@@ -42,7 +43,7 @@ export default function Donate() {
                             width={0}
                             height={0}
                             sizes="100vw"
-                            style={{ width: '100%', height: 'auto' }}/>
+                            style={{width: '100%', height: 'auto'}}/>
                     </div>
                     <a
                         href="/qr_upi.png"
